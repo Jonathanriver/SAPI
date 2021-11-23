@@ -1,0 +1,188 @@
+/*
+Loguin App
+*/
+*{
+    font-family: 'Josefin Sans Bold' !important;
+  }
+html,
+body {
+    height: 0;
+    margin: 0;
+}
+
+
+
+/* .container {
+} */
+
+.propiedad {
+    color: white;
+    font-size: 60px;
+}
+
+/* .sistemaG{ */
+
+/* border: solid 3px #000000 !important;
+    border-radius: 26px !important; */
+/* margin-bottom: ; */
+/* } */
+.sistemaG img {
+    /* border: solid 3px #23820b !important; */
+    width: 100%;
+    margin-top: 150px;
+}
+
+.card-left {
+    margin-top: 150px;
+    margin-left: 8%;
+}
+
+.card-left p {
+    width: 400px;
+}
+
+.tarjeta-inicio {
+    /* top: 30; */
+    width: 100% !important;
+    /* margin: 5%; */
+    font-family: 'Josefin Sans Bold' !important;
+    border: solid 3px #23820b !important;
+    border-radius: 26px !important;
+    text-align: justify;
+    /* box-shadow: -11px 10px #fc7323; */
+    /* margin-bottom: 15px; */
+    /* padding-top:10px ; */
+    /* right: -45%; */
+    /* margin-left: 5%; */
+    /* border: solid 0.5px #080808 !important; */
+    padding: 10px;
+    /* padding-top: 20px; */
+}
+
+.tarjeta-inicio button {
+    /* border: 3px solid #000000; */
+    /* border: solid 3px #23820b !important; */
+    text-decoration: none;
+    background-color: #23820b;
+    color: white;
+    margin-bottom: 8px;
+    border-radius: 26px;
+    /* margin-top: 15px; */
+    /* border: solid 0.5px #a09191 !important; */
+
+}
+
+.tarjeta-inicio button:hover {
+    color: white;
+
+}
+
+.text p {
+    margin-top: 20px;
+    text-align: justify;
+    /* border: solid 0.5px #080808 !important; */
+    border-radius: 26px !important;
+}
+
+.card-body p {
+    text-align: center;
+    background-color: #23820b !important;
+    color: white !important;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 26px !important;
+    font-size: 12px;
+}
+
+.tarjeta-inicio-2 {
+    top: 30;
+    width: 100% !important;
+    /* margin: 5%; */
+    font-family: 'Josefin Sans Bold' !important;
+    border: solid 3px #2cb1e5 !important;
+    border-radius: 26px !important;
+    text-align: justify;
+    /* right: -45%; */
+    /* box-shadow: -11px 10px #fc7323; */
+}
+
+.tarjeta-inicio-2 p {
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #2cb1e5 !important;
+    color: white !important;
+    width: 100%;
+    /* height: 57px; */
+    padding: 5px;
+    border-radius: 37px !important;
+    margin-bottom: 18px;
+}
+
+.tarjeta-inicio-2 ul {
+    list-style: none;
+    padding: 0px;
+    margin: 2px;
+    /* border: solid 1px #12171a !important;
+    border-radius: 26px !important; */
+}
+
+.tarjeta-inicio-2 ul li::before {
+    content: "\2022";
+    color: #2cb1e5;
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 50px;
+    line-height: 25px;
+    vertical-align: -11px;
+    width: 15px;
+    margin-right: 20px;
+    /* border: solid 3px #12171a !important;
+    border-radius: 26px !important; */
+}
+
+.texto-inicial {
+    font-family: 'Josefin Sans Bold' !important;
+    color: #fc7323;
+}
+
+.formulario-login {
+    margin: 6px;
+    padding: 6px;
+}
+
+.campo-user {
+    border-radius: 26px !important;
+    border: solid 0.5px #fc7323 !important;
+}
+
+.texto-recuperar {
+    color: #fc7323 !important;
+}
+
+
+
+.link-registro {
+    color: #fc7323 !important;
+    font-family: 'Josefin Sans Bold' !important;
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url('../Fuentes/Fonts/JosefinSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Light';
+    src: url('../Fuentes/Fonts/JosefinSans-Light.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Josefin Sans Thin';
+    src: url('../Fuentes/Fonts/JosefinSans-Thin.ttf');
+    font-weight: Thin;
+}

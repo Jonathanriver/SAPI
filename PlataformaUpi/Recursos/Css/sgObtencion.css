@@ -1,0 +1,190 @@
+/*
+Loguin App
+*/
+
+.texto-titulo-perfil {
+    color: #fc7323;
+    font-family: 'Josefin Sans Bold' !important;
+    text-decoration: underline;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+
+
+.box .row.header {
+    flex: 0 1 auto;
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+}
+
+.box .row.content {
+    flex: 1 1 auto;
+    margin: 0px !important;
+}
+
+.box .row.footer {
+    flex: 0 1 40px;
+}
+
+.Lateral {
+    background-image: url('../Imagenes/LateralDashboard.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Josefin Sans Bold' !important;
+}
+
+.tarjeta-inicio {
+    width: 50% !important;
+    margin-left: 20%;
+    font-family: 'Josefin Sans Bold' !important;
+    border: solid 0.5px #fc7323 !important;
+    border-radius: 26px !important;
+    box-shadow: -11px 10px #fc7323;
+}
+
+.texto-inicial {
+    font-family: 'Josefin Sans Bold' !important;
+    color: #fc7323;
+}
+
+.formulario-login {
+    margin: 6px;
+    padding: 6px;
+}
+
+.campo-user {
+    border-radius: 26px !important;
+    border: solid 0.5px #fc7323 !important;
+}
+
+.texto-recuperar {
+    color: #fc7323 !important;
+}
+
+.boton-ingreso {
+    background-color: #fc7323 !important;
+    color: white !important;
+    width: 70%;
+    border-radius: 26px !important;
+}
+
+.ImagenPerfil {
+    width: 80px;
+    height: 80px;
+}
+
+.marco-imagen {
+    margin: 20px;
+}
+
+.contenido-menu {
+    margin-left: -38px !important;
+    margin-top: 20% !important;
+}
+
+.fondo-color {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+}
+
+.tamano-icono {
+    font-size: 27px;
+}
+
+.link-menu:link {
+    color: white;
+}
+
+/* visited link */
+.link-menu:visited {
+    color: white;
+}
+
+/* mouse over link */
+.link-menu:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* selected link */
+.link-menu:active {
+    color: white;
+}
+
+.boton-list {
+    background-color: #fc7323 !important;
+    font-family: 'Josefin Sans Light' !important;
+
+}
+
+.campo-perfil {
+    border-radius: 10px !important;
+    border: solid 0.5px #fc7323 !important;
+    margin-bottom: 6px;
+    height: 35px !important;
+    font-family: 'Josefin Sans Light' !important;
+}
+
+input,
+label,
+textarea,
+option {
+    font-family: 'Josefin Sans Light' !important;
+
+}
+
+.campo-perfill {
+    border-radius: 20px !important;
+    border: solid 0.5px #fc7323 !important;
+    /* margin-bottom: 6px; */
+    height: 80px !important;
+    font-family: 'Josefin Sans Light' !important;
+}
+
+.campo-combo {
+    border: solid 0.5px #fc7323 !important;
+    font-family: 'Josefin Sans Light' !important;
+    border-radius: 20px !important;
+}
+
+.campo-Info{
+    width: 93%;
+    font-size: 14px !important;
+    border: solid 0.5px #fc7323;
+    padding: 4px;
+    border-radius: 6px;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url('../Fuentes/Fonts/JosefinSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Light';
+    src: url('../Fuentes/Fonts/JosefinSans-Light.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Josefin Sans Thin';
+    src: url('../Fuentes/Fonts/JosefinSans-Thin.ttf');
+    font-weight: Thin;
+}

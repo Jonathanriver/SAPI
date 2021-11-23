@@ -1,0 +1,170 @@
+/*
+Loguin App
+*/
+*{
+    font-family: 'Josefin Sans Bold' !important;
+  }
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+
+
+.box .row.header {
+    flex: 0 1 auto;
+    /* The above is shorthand for:
+    flex-grow: 0,
+    flex-shrink: 1,
+    flex-basis: auto
+    */
+}
+
+.box .row.content {
+    flex: 1 1 auto;
+    margin: 0px !important;
+}
+
+.box .row.footer {
+    flex: 0 1 40px;
+}
+
+.tarjeta-inicio {
+    width: 50% !important;
+    margin-left: 20%;
+    font-family: 'Josefin Sans Bold' !important;
+    /* border: solid 0.5px #fc7323 !important;
+    border-radius: 26px !important; */
+    box-shadow: -11px 10px #23820b;
+}
+
+.texto-inicial {
+    font-family: 'Josefin Sans Bold' !important;
+    color: #23820b;
+}
+
+.formulario-login {
+    margin: 6px;
+    padding: 15px;
+}
+
+.campo-user {
+    border-radius: 26px !important;
+    border: solid 0.5px #23820b !important;
+}
+
+.texto-recuperar {
+    color: #23820b !important;
+}
+
+.boton-ingreso {
+    background-color: #23820b !important;
+    color: white !important;
+    width:100%;
+    border-radius: 26px !important;
+    align-items: center!important;
+}
+
+.link-registro {
+    color: #23820b !important;
+    font-family: 'Josefin Sans Bold' !important;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/06/2021, 12:47:14 PM
+    Author     : Desarrollo Jonathan
+*/
+
+/* .texto-titulo-registro {
+    background-color: #23820b;
+    height: 80px;
+    width: 70%;
+    margin-bottom: 40;
+    box-shadow: 0px 10px 5px 5px #59b548;
+}
+
+
+.texto-titulo-registro h2 {
+    color: #ffffff;
+    font-family: 'Josefin Sans Bold' !important;
+    /* margin-left:20%;  */
+    /* padding: 3% 20%; */
+/* }  */
+.text-left img{
+   width: 90%; 
+   margin-bottom: 20px;
+}
+.link-menu:link {
+    color: white;
+}
+
+/* visited link */
+.link-menu:visited {
+    color: white;
+}
+
+/* mouse over link */
+.link-menu:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* selected link */
+.link-menu:active {
+    color: white;
+}
+
+.label-perfil {
+    color: #23820b;
+    font-family: 'Josefin Sans Bold' !important;
+    width: 80% !important;
+}
+
+.deliniar-perfil {
+    top: 30px;
+    margin-bottom:50px;
+    /* border: solid 0.5px #fc7323 !important;
+    border-radius: 26px !important; */
+    box-shadow: -7px 0px #23820b;
+    border-radius: 30px;
+}
+
+.campo-perfil {
+    border-radius: 26px !important;
+    border: solid 0.5px black !important;
+    margin-bottom: 6px;
+    width: 100% !important;
+    height: 33px !important;
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url('../Fuentes/Fonts/JosefinSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Light';
+    src: url('../Fuentes/Fonts/JosefinSans-Light.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Josefin Sans Thin';
+    src: url('../Fuentes/Fonts/JosefinSans-Thin.ttf');
+    font-weight: Thin;
+}

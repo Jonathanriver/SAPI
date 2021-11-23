@@ -1,0 +1,15 @@
+/* ESTILO PARA PAGINACIÓN */
+table {
+    border-collapse: collapse;
+}
+
+.inline {
+    display: inline-block;
+    float: right;
+    margin: 20px 0px;
+}
+
+input,
+button {
+    height: 34px;
+}

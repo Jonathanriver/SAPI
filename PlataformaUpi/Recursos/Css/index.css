@@ -1,0 +1,505 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : Jul 17, 2019, 2:25:57 AM
+    Author     : Administrator
+*/
+*{
+    font-family: 'Josefin Sans Bold' !important;
+  }
+.titulomenuLista {
+    background-color: #563d7c;
+    border-color: #563d7c !important;
+}
+
+.tabla-td-lis-cat {
+    font-size: 12px;
+    border-color: #563d7c !important;
+    font-size: 15px;
+    transition: background-color 0.5s;
+}
+
+.tabla-td-lis-cat:hover {
+    background-color: #563d7c;
+    color: #eee;
+    box-shadow: 5px 10px 18px black;
+}
+
+.tabla-td-lis-cat:hover i {
+    background-color: transparent;
+    color: #ffc107;
+}
+
+.tabla-td-lis-cat:hover a {
+    background-color: transparent;
+    color: #ffc107;
+}
+
+.flecha-lis-cat:hover {
+    background-color: #563d7c;
+    color: #eee;
+}
+
+.botonDEtalle {
+    background-color: #563d7c;
+    color: white !important;
+    font-weight: bold;
+}
+
+.botonDEtalle:hover {
+    background-color: #8b8bd7;
+    color: white;
+    cursor: pointer;
+}
+
+.boton-menu {
+    background-color: #563d7c !important;
+    color: white !important;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s !important;
+}
+
+.boton-menu:hover {
+    background-color: #8b8bd7 !important;
+    color: white !important;
+    width: 100%;
+    cursor: pointer;
+}
+
+.icono-lis-cate {
+    color: white;
+    font-size: 30px;
+    margin: 3px;
+    text-align: left;
+    transition: color 0.5s;
+}
+
+.flecha-lis-cat {
+    border-color: #563d7c !important;
+    border-left: 0px !important;
+    color: silver;
+    transition: background-color 0.5s;
+}
+
+.icono-lis-cate-dos {
+    color: #563d7c;
+    font-size: 33px;
+    margin: 3px;
+    text-align: left;
+}
+
+.icono-lis-cate-dos {
+    color: #563d7c;
+    font-size: 27px;
+    margin: 3px;
+    text-align: left;
+}
+
+.Texto-titulo-detalle {
+    color: #563d7c;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.containerRadio {
+    /* display: block; */
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.textoRadio {
+    font-size: 20px;
+    color: silver;
+}
+
+
+/* Hide the browser's default radio button */
+
+.containerRadio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #8b8bd7;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.containerRadio:hover input~.checkmark {
+    background-color: #8b8bd7;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.containerRadio input:checked~.checkmark {
+    background-color: #563d7c;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.containerRadio input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.containerRadio .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.input-register {
+    border: solid 0.5px silver;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin: 20px;
+}
+
+.input-register-login {
+    border: solid 0.5px silver;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: #563d7c;
+    /* //margin: 20px; */
+}
+
+.label-cate {
+    margin: 20px;
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.select-cate {
+    margin: 20px;
+    background-color: #eee;
+}
+
+.visulaizacionMenu {
+    display: none !important;
+}
+
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0px;
+    border-radius: .25rem;
+}
+
+.boton-login {
+    border: none;
+    color: #563d7c;
+}
+
+.banner-contac {
+    background-image: url(../Imagenes/Capture2.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff !important;
+    background-color: #563d7c !important;
+}
+
+.contenedor-images {
+    border-radius: 80px;
+    background-image: url(../Imagenes/User.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* //width: 160px; */
+    height: 160px;
+    padding: 12px;
+    margin: 22px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #563d7c !important;
+}
+
+.nombre {
+    border: 0px !important;
+}
+
+form p {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10%;
+    font-size: 30px;
+    color: #fff;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.form_fil {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    border: solid 0.5px #eee;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #149174;
+    color: #0C5645;
+}
+
+form button:active {
+    border: 0;
+}
+
+.tarjeta-producto {
+    transition: box-shadow 0.3s;
+}
+
+.tarjeta-producto:hover {
+    box-shadow: 5px 10px 18px black;
+}
+
+.subMenu:hover {
+    background-color: #8b8bd7;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.boton-inicio {
+    position: relative !important;
+    width: 25% !important;
+    height: 36px;
+    top: -35% !important;
+    left: 36% !important;
+    background-color: #FF6600;
+    vertical-align: middle;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+.sep-uno {
+    background-color: #FF6600;
+}
+
+.sep-dos {
+    background-color: #FF8737;
+}
+
+.sep-tres {
+    background-color: #000000;
+}
+
+.titulo-card {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'tw-cen-mt-bold';
+}
+
+.boton-sep-uno {
+    background-color: #000000 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.boton-sep-dos {
+    background-color: #FF6600 !important;
+    color: black !important;
+    font-weight: bold!important;
+}
+
+.boton-inicio-productos {
+    position: relative !important;
+    width: 34% !important;
+    height: 36px;
+    top: 25px !important;
+    /* left: 36% !important; */
+    background-color: #FF6600;
+    vertical-align: middle;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+.boton-inicio-mas {
+    /* position: relative !important; */
+    width: 25% !important;
+    height: 36px;
+    /* top: 25px !important; */
+    /* left: 36% !important; */
+    background-color: #FF6600;
+    vertical-align: middle;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20PX;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .boton-inicio {
+        position: relative !important;
+        width: 29% !important;
+        height: 26px;
+        top: -35% !important;
+        left: 34% !important;
+        background-color: #FF6600;
+        vertical-align: middle;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        display: true;
+        content: ' Registrate ahora ';
+    }
+    .boton-inicio-productos {
+        position: relative !important;
+        width: 50% !important;
+        height: 36px;
+        top: 25px !important;
+        /* left: 36% !important; */
+        background-color: #FF6600;
+        vertical-align: middle;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: 20PX;
+        font-weight: bold;
+    }
+    .boton-inicio-mas {
+        /* position: relative !important; */
+        width: 50% !important;
+        height: 36px;
+        /* top: 25px !important; */
+        /* left: 36% !important; */
+        background-color: #FF6600;
+        vertical-align: middle;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: 20PX;
+        font-weight: bold;
+    }
+}
+
+.link-registro{
+    color: #fc7323;
+    font-family: 'Josefin Sans Bold';
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans Bold';
+    src: url('../Fuentes/Fonts/JosefinSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Josefin Sans Light';
+    src: url('../Fuentes/Fonts/JosefinSans-Light.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Josefin Sans Thin';
+    src: url('../Fuentes/Fonts/JosefinSans-Thin.ttf');
+    font-weight: Thin;
+}
+
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../Fuentes/Roboto-Medium.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../Fuentes/Roboto-Regular.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url('../Fuentes/Roboto-Bold.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../Fuentes/Roboto-Light.ttf');
+    font-weight: 'Light';
+}
+
+@font-face {
+    font-family: 'tw-cen-mt-bold';
+    src: url('../Fuentes/tw-cen-mt-bold.ttf');
+    font-weight: 'Light';
+}
+

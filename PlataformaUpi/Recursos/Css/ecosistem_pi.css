@@ -1,0 +1,114 @@
+.campo-Info{
+    width: 93%;
+    font-size: 14px !important;
+    border: solid 0.5px #fc7323;
+    padding: 4px;
+    border-radius: 6px;
+}/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/06/2021, 12:47:14 PM
+    Author     : Desarrollo Jonathan
+*/
+
+.texto-titulo-perfil {
+    color: #fc7323;
+    font-family: 'Josefin Sans Bold' !important;
+    text-decoration: underline;
+  }
+  
+  .link-menu:link {
+    color: white;
+  }
+  
+  /* visited link */
+  .link-menu:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  .link-menu:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  .link-menu:active {
+    color: white;
+  }
+  
+  .label-perfil {
+    color: #000000;
+    font-family: 'Josefin Sans Bold' !important;
+  }
+  
+  .deliniar-perfil {
+    border: none;
+    /* border: solid 0.5px #9e8f86 !important; */
+    /* border-radius: 26px !important; */
+    /* box-shadow: -11px 10px #fc7323; */
+  }
+  
+  .perfill {
+    /* border: solid 0.5px black !important; */
+    border: none;
+  }
+  
+  .campo-perfil {
+    border-radius: 20px !important;
+    border: solid 0.5px #fc7323 !important;
+    margin-bottom: 6px;
+    height: 30px !important;
+  }
+  
+  .campo-perfill {
+    border-radius: 20px !important;
+    border: solid 0.5px #fc7323 !important;
+    margin-bottom: 6px;
+    height: 100px !important;
+    font-family: 'Josefin Sans Bold' !important;
+  
+  }
+  
+  .radious {
+    /* border-radius: 20px !important; */
+    border: solid 0.5px #ffffff !important;
+    box-shadow: -8px 7px 18px #363535a4;
+    /* box-shadow: -8px  1px 20px #272727; */
+    margin-bottom: 12px;
+    padding: 5px;
+    font-family: 'Josefin Sans Bold' !important;
+  
+    /* height: 55px !important; */
+  }
+  /* Boton desplegable */
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    /* overflow: auto; height: auto; */
+  }
+  /* .active,
+  .accordion:hover {
+      background-color: #939594;
+  } */
+  
+  .panel {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      overflow: auto; height: 300px;
+  }
