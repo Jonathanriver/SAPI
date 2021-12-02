@@ -4,15 +4,10 @@
 include_once './Admin/modelo/database.php';
 include_once './Vista/HeadersRegistrate.php';
 include_once './Vista/MenuNav.php';
-
-$sql = "SELECT * FROM gestioncont WHERE id=5";
-$resultado = $mysqli->query($sql);
-$row = $resultado->fetch_array(MYSQLI_ASSOC);
+include_once './Controladores/Public_Content/Validacion.php';
 
 ?>
-
 <body>
-
     <div class="container">
         <div class="row texto-titulo-registro" style="margin-left:14%;">
             <div class="col text-left">
@@ -38,7 +33,6 @@ $row = $resultado->fetch_array(MYSQLI_ASSOC);
             ?>
             <div class="col-sm-3">
             </div>
-
 
             <div class="col-sm-6" style="overflow: auto; height:600px;">
                 <!-- Controladores/RegistrarUsuarios.php -->
@@ -71,40 +65,39 @@ $row = $resultado->fetch_array(MYSQLI_ASSOC);
         </div>
     </div>
     </div>
-    <!-- footer -->
-    <script type="text/javascript">
-        function Comparara2() {
-            $('#municipio').html('<option value="0">Seleccione</option>');
-            var Depart;
-            var campo1 = $('#Depart').val();
-
-            $.ajax({
-                url: "./Controladores/ConsultaListaMunicipios.php?id_departamento=" + campo1,
-                contentType: "application/json",
-                success: function(data) {
-                    Depart = JSON.parse(data);
-                    for (var i = 0; i < Depart.length; i++) {
-                        $('#municipio').append('<option value="' + Depart[i]['idmunicipio'] + '">' + Depart[i][
-                            'nombre'
-                        ] + '</option>');
-                    }
-                }
-            });
-        }
-
-        function Institu() {
-            var int = $('#institucion').val();
-
-            if (int === '39') {
-                $('#sede').show();
-            } else {
-                $('#sede').hide();
-            }
-        }
-    </script>
+    <?php
+    include_once './Vista/Footer.php';
+    ?>
 </body>
-<?php
-include_once './Vista/Footer.php';
-?>
+<script type="text/javascript">
+    function Comparara2() {
+        $('#municipio').html('<option value="0">Seleccione</option>');
+        var Depart;
+        var campo1 = $('#Depart').val();
+
+        $.ajax({
+            url: "./Controladores/ConsultaListaMunicipios.php?id_departamento=" + campo1,
+            contentType: "application/json",
+            success: function(data) {
+                Depart = JSON.parse(data);
+                for (var i = 0; i < Depart.length; i++) {
+                    $('#municipio').append('<option value="' + Depart[i]['idmunicipio'] + '">' + Depart[i][
+                        'nombre'
+                    ] + '</option>');
+                }
+            }
+        });
+    }
+
+    function Institu() {
+        var int = $('#institucion').val();
+
+        if (int === '39') {
+            $('#sede').show();
+        } else {
+            $('#sede').hide();
+        }
+    }
+</script>
 
 </html>

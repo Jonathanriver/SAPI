@@ -1,35 +1,24 @@
 /*
 Loguin App
 */
-*{
+* {
     font-family: 'Josefin Sans Bold' !important;
-  }
+}
+
 html,
 body {
     height: 0;
     margin: 0;
 }
 
-
-
-/* .container {
-} */
-
 .propiedad {
     color: white;
     font-size: 60px;
 }
 
-/* .sistemaG{ */
-
-/* border: solid 3px #000000 !important;
-    border-radius: 26px !important; */
-/* margin-bottom: ; */
-/* } */
 .sistemaG img {
-    /* border: solid 3px #23820b !important; */
     width: 100%;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .card-left {
@@ -42,33 +31,23 @@ body {
 }
 
 .tarjeta-inicio {
-    /* top: 30; */
+    top: 50px;
     width: 100% !important;
-    /* margin: 5%; */
     font-family: 'Josefin Sans Bold' !important;
     border: solid 3px #23820b !important;
     border-radius: 26px !important;
     text-align: justify;
-    /* box-shadow: -11px 10px #fc7323; */
-    /* margin-bottom: 15px; */
-    /* padding-top:10px ; */
-    /* right: -45%; */
-    /* margin-left: 5%; */
-    /* border: solid 0.5px #080808 !important; */
     padding: 10px;
-    /* padding-top: 20px; */
 }
 
 .tarjeta-inicio button {
-    /* border: 3px solid #000000; */
-    /* border: solid 3px #23820b !important; */
+
     text-decoration: none;
     background-color: #23820b;
     color: white;
     margin-bottom: 8px;
     border-radius: 26px;
-    /* margin-top: 15px; */
-    /* border: solid 0.5px #a09191 !important; */
+    padding: 15px;
 
 }
 
@@ -80,7 +59,6 @@ body {
 .text p {
     margin-top: 20px;
     text-align: justify;
-    /* border: solid 0.5px #080808 !important; */
     border-radius: 26px !important;
 }
 
@@ -96,15 +74,13 @@ body {
 }
 
 .tarjeta-inicio-2 {
-    top: 30;
+    top: 70px;
     width: 100% !important;
-    /* margin: 5%; */
     font-family: 'Josefin Sans Bold' !important;
     border: solid 3px #2cb1e5 !important;
     border-radius: 26px !important;
     text-align: justify;
-    /* right: -45%; */
-    /* box-shadow: -11px 10px #fc7323; */
+
 }
 
 .tarjeta-inicio-2 p {
@@ -114,7 +90,6 @@ body {
     background-color: #2cb1e5 !important;
     color: white !important;
     width: 100%;
-    /* height: 57px; */
     padding: 5px;
     border-radius: 37px !important;
     margin-bottom: 18px;
@@ -124,8 +99,7 @@ body {
     list-style: none;
     padding: 0px;
     margin: 2px;
-    /* border: solid 1px #12171a !important;
-    border-radius: 26px !important; */
+
 }
 
 .tarjeta-inicio-2 ul li::before {
@@ -138,8 +112,7 @@ body {
     vertical-align: -11px;
     width: 15px;
     margin-right: 20px;
-    /* border: solid 3px #12171a !important;
-    border-radius: 26px !important; */
+
 }
 
 .texto-inicial {

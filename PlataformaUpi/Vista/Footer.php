@@ -1,8 +1,6 @@
 <div style="background-image: url('Recursos/Imagenes/3.png');width: 100%;background-size: cover;height: 120px;transform: rotate(180deg);">
 </div>
 <!-- Footer -->
-<!-- tyle="border: solid 0.5px #fc7323 !important;
-                     border-radius: 26px !important;" -->
 <footer class="page-footer font-small mdb-color pt-4" style="background-color: #2cb1e5;">
     <!-- Footer Links -->
     <div class="container text-center text-md-left">

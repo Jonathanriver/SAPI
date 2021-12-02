@@ -5,7 +5,6 @@ session_start();
 include_once './Vista/HeaderRgister.php';
 require_once './Modelo/Conexion.php';
 ?>
-
 <body>
     <div class="box">
         <div class="row content">
@@ -14,7 +13,6 @@ require_once './Modelo/Conexion.php';
             <div class="col-8 text-center">
                 <div class="row">
                     <div class="col">
-                        <!-- <br><br><br> -->
                     </div>
                 </div>
                 <div class="row">

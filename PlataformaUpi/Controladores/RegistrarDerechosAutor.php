@@ -302,23 +302,24 @@ if (isset($_POST['Derecho_Autor'])) {
                 //Registro Usuarios
                 $out = array_values(json_decode($ListUser));
                 $array = json_decode(json_encode($out), true);
+
                 for ($i = 0; $i < count($array); $i++) {
 
                     $sqlRF = "INSERT INTO `registro_full`(`idRegistro_full`, `usuarios_idUsuarios`, `Codigo_Proyecto`, `registro_idRegistro`, `tipo_registro_idTipo_Registro` ) VALUES (null," . $array[$i]['Id'] . ",'$CodProd',$id,$tipoRegistro)";
 
                     if ($consulta_Registro = mysqli_query($link, $sqlRF)) {
                         // echo "<script>alert('El formulario se ha registrado de manera Éxitosa!)</script>";
-                        echo "<script>window.location.href = '../RespuestaFormulario.php';</script>";
+                        echo "<script>window.location.href = '../Vista/Transaccional/RespuestaFormulario.php';</script>";
                         // print_r($consulta_User);
                     } else {
                         // echo "<script>alert('Se ha presentado un fallo en el registro')</script>";
-                        echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+                        echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
                         // die("No existe la consulta");
                     }
                 }
             } else {
                 // echo "<script>alert('Se ha presentado un fallo en el registro')</script>";
-                echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+                echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
 
                 // die("No existe la consulta");
             }
@@ -335,23 +336,23 @@ if (isset($_POST['Derecho_Autor'])) {
 
                 if ($consulta_Registro = mysqli_query($link, $sqlRF)) {
                     // echo "<script>alert('El formulario se ha registrado de manera Éxitosa!)</script>";
-                    echo "<script>window.location.href = '../RespuestaFormulario.php';</script>";
+                    echo "<script>window.location.href = '../Vista/Transaccional/RespuestaFormulario.php';</script>";
                     // print_r($consulta_User);
                 } else {
                     // echo "dsvsd";
                     // echo "<script>alert('Se ha presentado un fallo en el registro')</script>";
-                    echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+                    echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
                     // die("No existe la consulta");
                 }
             } else {
                 // echo "<script>alert('Se ha presentado un fallo en el registro')</script>";
-                echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+                echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
 
                 // die("No existe la consulta");
             }
             // 
 
-            echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+            echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
         }
     }
 }

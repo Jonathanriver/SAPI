@@ -37,7 +37,7 @@ require_once './Modelo/Conexion.php';
                                         <br>
                                         <br>
                                         <p>
-                                            No se encontro el usuario, por favor verifique que su número de cedula sea el correcto!, o contacte con el Dinamisadoro o .
+                                            No se encontro el usuario, por favor verifique que su número de cedula sea el correcto!, o contacte con el Dinamisador.
                                         </p>
                                         <div class="container">
                                             <a href="index.php" class="btn btn-warning" style="background-color: #fc7323; border-color: transparent;color: white;">Ingreso</a>

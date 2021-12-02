@@ -6,12 +6,9 @@ session_start();
 include_once './Admin/modelo/database.php';
 include_once './Vista/HeadersServicios.php';
 include_once './Vista/MenuNav.php';
+include_once './Controladores/Public_Content/LaUpi.php';
 
-// Consulta de la Tabla La Upi
-$sql = "SELECT * FROM laUpi";
-$resultado = $mysqli->query($sql);
 ?>
-<!-- style="border: solid 0.5px #fc7323 !important;" -->
 
 <body>
     <!-- While para correr las consultas en la base de datos y traer toda la información -->
@@ -80,13 +77,10 @@ $resultado = $mysqli->query($sql);
                             <?php
                             } ?>
                         </div>
-                        <div class="col-sm"></div>
-                        <div class="col-sm"></div>
                     </div>
-
                 </div>
                 <!-- Incluir los modals de cada boton -->
-                <?php include "Vista/vistas_Modals.php"; ?>
+                <?php include "Vista/Modals/Boton_Info.php"; ?>
             </div>
         </div>
 
@@ -96,5 +90,4 @@ $resultado = $mysqli->query($sql);
     include_once './Vista/Footer.php';
     ?>
 </body>
-
 </html>

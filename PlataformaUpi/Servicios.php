@@ -7,14 +7,11 @@ include_once './Admin/modelo/database.php';
 
 include_once './Vista/HeadersServicios.php';
 include_once './Vista/MenuNav.php';
-
-$sql = "SELECT * FROM gestionCont WHERE id=3";
-$resultado = $mysqli->query($sql);
-$row = $resultado->fetch_array(MYSQLI_ASSOC);
-
+include_once './Controladores/Public_Content/Servicios.php';
 ?>
 
 <body>
+    <!-- Información de nuestros servicios -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm text-center">

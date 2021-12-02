@@ -112,24 +112,24 @@ if (isset($_POST['ObVegetal'])) {
 
             if ($consulta_Registro = mysqli_query($link, $sqlRF)) {
                 // echo "<script>alert('El formulario se ha registrado de manera Éxitosa!)</script>";
-                echo "<script>window.location.href = '../RespuestaFormulario.php';</script>";
+                echo "<script>window.location.href = '../Vista/Transaccional/RespuestaFormulario.php';</script>";
                 // print_r($consulta_User);
             } else {
                 // echo "<script>alert('Se ha presentado un fallo en el registro')</script>";
-                echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+                echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
                 // die("No existe la consulta");
             }
         }
     } else {
         // echo "<script>alert('Se ha presentado un fallo en el registro')</script>";
-        echo "<script>window.location.href = '../FormularioFallo.php';</script>";
+        echo "<script>window.location.href = '../Vista/Transaccional/FormularioFallo.php';</script>";
 
         // die("No existe la consulta");
     }
 } else {
 
     $_SESSION['status'] = "Se debe agregar al menos un Talento.!";
-    header("Location: ../RgObtencionVegetal.php");
+    header("Location: ../Vista/Transaccional/RgObtencionVegetal.php");
     return false;
 }
 }
